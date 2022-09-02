@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+}
+
+nav{
+    padding: 20px 40px;
+    background-color: rgb(59, 59, 126);
+}
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu li:hover{
+    background-color:rgb(230, 172, 121);
+}
+.main-menu li{
+    padding: 15px 50px;
+    border-radius: 10px;
+}
+
+.main-menu li i{
+    color: #fff;
+    margin-right: 8px;
+}
+
+.main-menu li a{
+    color: #fff;
+}
+.about-us{
+    display: none;
+}
+
+.about:hover .about-us{
+    display: block;
+    position: absolute;
+    top: 68px;
+    left: 290px;
+    background-color: rgb(59, 59, 126);
+}
+.about:hover .about-us li{
+    border-bottom: 1px dotted #fff;
+    border-radius: 0;
+}
+
+.service-1{
+    display: none;
+}
+.service-1 li{
+    border-radius: 0;
+    border-bottom: 1px dotted #fff;
+}
+
+.services:hover .service-1{
+    display: block;
+    position: absolute;
+    background-color: rgb(59, 59, 126);
+    top: 65px;
+}
+
+.market i{
+    position: absolute;
+    right: 0;
+}
+
+.market-1{
+    display: none;
+}
+
+.market:hover .market-1{
+    display: block;
+    position: absolute;
+    left: 184px;
+    top: 50px;
+    background-color: rgb(59, 59, 126);
+}
+
+.mobile-app-1{
+    display: none;
+}
+
+.mobile-app i{
+    position: absolute;
+    right: 0;
+}
+
+.mobile-app:hover .mobile-app-1{
+    display: block;
+    position: absolute;
+    background-color: rgb(59, 59, 126);
+    left: 184px;
+    top: 95px;
+}
